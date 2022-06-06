@@ -30,3 +30,68 @@ img {
 width: 30px;
 margin: 8px 20px;
 }
+
+/* main */
+
+/* returnal */
+.ms_bg1_returnal {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 130px;
+}
+
+.ms_bg1_returnal img {
+    width: 250px;
+    padding-top: 230px;
+}
+
+.ms_bg1_returnal h1 {
+    font-size: 35px;
+}
+
+
+.ms_btn_acquistaora {
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 20px;
+    background-color: #cd3d0f;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (min-width: 768px) {
+    .ms_bg1_returnal img {
+        width: 350px;
+}
+}
+
+@media all and (min-width: 992px) {
+    .ms_bg1_returnal img {
+        width: 200px;
+    }
+}
+    
+@media all and (min-width: 1400px) {
+    .ms_bg1_returnal {
+        padding-top: 190px;
+    }
+}
