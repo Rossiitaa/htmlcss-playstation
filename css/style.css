@@ -1,3 +1,32 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+img {
+    width: 100%;
+}
+
+/* header */
+
+/* sony */
+.ms_imgsony img {
+    width: 120px;
+}
+
+/* menù */
+.ms_buttonhead {
+    background-color: #363636;
+    padding: 10px;
+    border-radius: 20px;
+    width: 80px;
+    text-align: center;
+}
+.ms_buttonhead a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.ms_lens_search img {
+width: 30px;
+margin: 8px 20px;
+}
