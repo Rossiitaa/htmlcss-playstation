@@ -91,6 +91,17 @@ margin: 8px 20px;
     font-weight: bold;
 }
 
+/* it takes two */
+.ms_bg2_ittakestwo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ms_bg2_ittakestwo img {
+    width: 250px;
+    padding-top: 60px;
+}
 
 
 
@@ -112,10 +123,16 @@ margin: 8px 20px;
     .ms_bg1_returnal img {
         width: 350px;
 }
+    .ms_bg2_ittakestwo img {
+        width: 350px;
+    }
 }
 
 @media all and (min-width: 992px) {
     .ms_bg1_returnal img {
+        width: 200px;
+    }
+    .ms_bg2_ittakestwo img {
         width: 200px;
     }
 }
