@@ -157,8 +157,25 @@ margin: 8px 20px;
     padding-bottom: 60px;
 }
 
+/* footer */
+footer {
+    background-color: #00439c;
+}
+.rs_languagelogo {
+    width: 25px;
+}
+footer a {
+    text-decoration: none;
+    color: #fff;
+    line-height: 30px;
+}
+ul {
+    list-style: none;
+}
 
-
+.rs_info {
+    text-decoration: underline;
+}
 
 /* breakpoints */
 
