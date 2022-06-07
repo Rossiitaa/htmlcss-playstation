@@ -6,6 +6,15 @@ img {
     width: 100%;
 }
 
+h1 {
+    font-size: 35px;
+}
+
+p {
+    color: #727272;
+    font-weight: bold;
+}
+
 /* header */
 
 /* sony */
@@ -47,10 +56,6 @@ margin: 8px 20px;
     padding-top: 230px;
 }
 
-.rs_bg1_returnal h1 {
-    font-size: 35px;
-}
-
 
 .rs_btn_acquistaora {
     color: #fff;
@@ -74,13 +79,6 @@ margin: 8px 20px;
     margin-top: 110px;
 }
 
-.rs_play5 h2 {
-    font-size: 35px;
-}
-.rs_play5 p {
-    color: #727272;
-    font-weight: bold;
-}
 .rs_buttonblue {
     text-decoration: none;
     background-color: #2D64E6;
@@ -110,13 +108,8 @@ margin: 8px 20px;
 }
 
 /* esplora playstation 4 */
-.rs_play4 h1 {
-    font-size: 35px;
-}
-.rs_play4 p {
-    color: #727272;
-    font-weight: bold;
-}
+
+.rs_play4 
 
 /* playstation plus */
 .rs_bg_playplus {
@@ -140,14 +133,7 @@ margin: 8px 20px;
 }
 
 /* sconti */
-.rs_sales h2 {
-    font-size: 35px;
-}
 
-.rs_sales p {
-    color: #727272;
-    font-weight: bold;
-}
 
 /* play now */
 .rs_bg_playnow {
@@ -163,6 +149,13 @@ margin: 8px 20px;
     font-weight: bold;
 }
 
+/* social */
+.rs_social {
+    padding: 20px 0 40px 0;
+}
+.rs_social h1 {
+    padding-bottom: 60px;
+}
 
 
 
@@ -196,7 +189,6 @@ margin: 8px 20px;
     .rs_padding_ps5 {
         margin: 160px 0 180px 0;
     }
-
 }
     
 @media all and (min-width: 1400px) {
