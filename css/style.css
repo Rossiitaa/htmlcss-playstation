@@ -9,24 +9,24 @@ img {
 /* header */
 
 /* sony */
-.ms_imgsony img {
+.rs_imgsony img {
     width: 120px;
 }
 
 /* menù */
-.ms_buttonhead {
+.rs_buttonhead {
     background-color: #363636;
     padding: 10px;
     border-radius: 20px;
     width: 80px;
     text-align: center;
 }
-.ms_buttonhead a {
+.rs_buttonhead a {
     color: #fff;
     text-decoration: none;
 }
 
-.ms_lens_search img {
+.rs_lens_search img {
 width: 30px;
 margin: 8px 20px;
 }
@@ -34,7 +34,7 @@ margin: 8px 20px;
 /* main */
 
 /* returnal */
-.ms_bg1_returnal {
+.rs_bg1_returnal {
     background-image: url(../img/jumbo-bg.png);
     background-position: center;
     background-size: cover;
@@ -42,17 +42,17 @@ margin: 8px 20px;
     top: 130px;
 }
 
-.ms_bg1_returnal img {
+.rs_bg1_returnal img {
     width: 250px;
     padding-top: 230px;
 }
 
-.ms_bg1_returnal h1 {
+.rs_bg1_returnal h1 {
     font-size: 35px;
 }
 
 
-.ms_btn_acquistaora {
+.rs_btn_acquistaora {
     color: #fff;
     padding: 10px 15px;
     border-radius: 20px;
@@ -64,24 +64,24 @@ margin: 8px 20px;
 
 /* returnal and ratchet clank */
 
-.ms_videogames1 {
+.rs_videogames1 {
     margin-top: 160px;
 }
 
 
 /* playstation 5 */
-.ms_play5 {
+.rs_play5 {
     margin-top: 110px;
 }
 
-.ms_play5 h2 {
+.rs_play5 h2 {
     font-size: 35px;
 }
-.ms_play5 p {
+.rs_play5 p {
     color: #727272;
     font-weight: bold;
 }
-.ms_buttonblue {
+.rs_buttonblue {
     text-decoration: none;
     background-color: #2D64E6;
     padding: 10px 15px;
@@ -92,32 +92,52 @@ margin: 8px 20px;
 }
 
 /* it takes two */
-.ms_bg2_ittakestwo {
+.rs_bg2_ittakestwo {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
     background-size: cover;
 }
 
-.ms_bg2_ittakestwo img {
+.rs_bg2_ittakestwo img {
     width: 250px;
     padding-top: 60px;
 }
 
 /* nuove uscite */
-.ms_bg_newrelease {
+.rs_bg_newrelease {
     background-color: #1f1f1f;
     color: #fff;
 }
 
 /* esplora playstation 4 */
-.ms_play4 h1 {
+.rs_play4 h1 {
     font-size: 35px;
 }
-.ms_play4 p {
+.rs_play4 p {
     color: #727272;
     font-weight: bold;
 }
 
+/* playstation plus */
+.rs_bg_playplus {
+    background-color: #bebcbb;
+}
+
+.rs_playstationplus {
+    width: 70%;
+}
+
+.rs_button_playplus {
+    text-decoration: none;
+    background-color: #d9dadc;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #2d64e6;
+    font-weight: bold;
+}
+.rs_bannerplus {
+
+}
 
 
 
@@ -126,33 +146,48 @@ margin: 8px 20px;
 
 
 
-
-
-
-
-
-
+@media all and (max-width: 767px) {
+    .rs_bg_playplus {
+        padding-bottom: 1px;
+    }
+}
 
 @media all and (min-width: 768px) {
-    .ms_bg1_returnal img {
+    .rs_bg1_returnal img {
         width: 350px;
 }
-    .ms_bg2_ittakestwo img {
+    .rs_bg2_ittakestwo img {
         width: 350px;
+    }
+
+    .rs_bg_playplus {
+        padding: 0 30px;
+    }
+
+    .rs_padding_ps5 {
+        margin-top: 65px;
     }
 }
 
 @media all and (min-width: 992px) {
-    .ms_bg1_returnal img {
+    .rs_bg1_returnal img {
         width: 200px;
     }
-    .ms_bg2_ittakestwo img {
+    .rs_bg2_ittakestwo img {
         width: 200px;
     }
+    .rs_padding_ps5 {
+        margin: 160px 0 180px 0;
+    }
+
 }
     
 @media all and (min-width: 1400px) {
-    .ms_bg1_returnal {
+    .rs_bg1_returnal {
         padding-top: 190px;
+    }
+    
+    .rs_padding_ps5 {
+        margin-top: 200px;
     }
 }
