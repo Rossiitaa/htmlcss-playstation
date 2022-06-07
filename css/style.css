@@ -58,6 +58,8 @@ margin: 8px 20px;
     border-radius: 20px;
     background-color: #cd3d0f;
     text-decoration: none;
+    border: 1px solid #992f0e;
+    font-weight: bold;
 }
 
 /* returnal and ratchet clank */
@@ -66,6 +68,28 @@ margin: 8px 20px;
     margin-top: 160px;
 }
 
+
+/* playstation 5 */
+.ms_play5 {
+    margin-top: 110px;
+}
+
+.ms_play5 h2 {
+    font-size: 35px;
+}
+.ms_play5 p {
+    color: #727272;
+    font-weight: bold;
+}
+.ms_buttonblue {
+    text-decoration: none;
+    background-color: #2D64E6;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #96b2f3;
+    color: #fff;
+    font-weight: bold;
+}
 
 
 
