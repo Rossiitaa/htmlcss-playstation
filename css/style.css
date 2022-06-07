@@ -139,18 +139,35 @@ margin: 8px 20px;
 
 }
 
-
-
-
-
-
-
-
-@media all and (max-width: 767px) {
-    .rs_bg_playplus {
-        padding-bottom: 1px;
-    }
+/* sconti */
+.rs_sales h2 {
+    font-size: 35px;
 }
+
+.rs_sales p {
+    color: #727272;
+    font-weight: bold;
+}
+
+/* play now */
+.rs_bg_playnow {
+    background-color: #161c3b;
+}
+
+.rs_button_playnow {
+    text-decoration: none;
+    background-color: #d9dadc;
+    padding: 10px 15px;
+    border-radius: 20px;
+    color: #000;
+    font-weight: bold;
+}
+
+
+
+
+
+/* breakpoints */
 
 @media all and (min-width: 768px) {
     .rs_bg1_returnal img {
