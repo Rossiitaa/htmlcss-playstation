@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>htmlcss-playstation</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/style.css">
 </head>
@@ -19,7 +20,7 @@
             <!-- menù -->
             <div class="">
                 <nav class="navbar navbar-expand-lg bg-light">
-                    <div class="container">
+                    <div class="container-fluid">
                         <a class="navbar-brand" href="#">
                             <img src="./img/play_logo.svg" alt="">
                         </a>
@@ -29,85 +30,317 @@
                         <div class="collapse navbar-collapse" id="navbarNavDropdown">
 
                             <div class="col-lg-7">
-                                <ul class="navbar-nav">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Giochi
+                                <ul class="navbar-nav rs_imgnavbar">
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Giochi <i class="bi bi-caret-down-fill"></i>
                                         </a>
-                                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <ul class="dropdown-menu text-center w-100 m-0 rs_bordenav" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 5</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                            <img src="./img/play-menu-ico.png" alt="console">
+                                                            <div>PlayStation 4</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 3</div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Giochi
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Giochi
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Giochi
+                                                    </a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Hardware
+
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Hardware <i class="bi bi-caret-down-fill"></i>
                                         </a>
-                                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <ul class="dropdown-menu text-center w-100 m-0 rs_bordenav" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 5</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                            <img src="./img/play-menu-ico.png" alt="console">
+                                                            <div>PlayStation 4</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 3</div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Hardware
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Hardware
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Hardware
+                                                    </a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Servizi
+
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Servizi <i class="bi bi-caret-down-fill"></i>
                                         </a>
-                                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <ul class="dropdown-menu text-center w-100 m-0 rs_bordenav" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 5</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                            <img src="./img/play-menu-ico.png" alt="console">
+                                                            <div>PlayStation 4</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 3</div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Servizi
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Servizi
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Servizi
+                                                    </a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Novità
+
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Novità <i class="bi bi-caret-down-fill"></i>
                                         </a>
-                                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <ul class="dropdown-menu text-center w-100 m-0 rs_bordenav" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 5</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                            <img src="./img/play-menu-ico.png" alt="console">
+                                                            <div>PlayStation 4</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 3</div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Novità
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Novità
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Novità
+                                                    </a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Fai acquisti
+
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Fai acquisti <i class="bi bi-caret-down-fill"></i>
                                         </a>
-                                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <ul class="dropdown-menu text-center w-100 m-0 rs_bordenav" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 5</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                            <img src="./img/play-menu-ico.png" alt="console">
+                                                            <div>PlayStation 4</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 3</div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Fai Acquisti
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Fai Acquisti
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Fai Acquisti
+                                                    </a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        Supporto
+
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        Supporto <i class="bi bi-caret-down-fill"></i>
                                         </a>
-                                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <ul class="dropdown-menu text-center w-100 m-0 rs_bordenav" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 5</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                            <img src="./img/play-menu-ico.png" alt="console">
+                                                            <div>PlayStation 4</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 3</div>
+                                                    </a>
+                                                </li>
+                                            </div>
+                                            <hr>
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Supporto
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Supporto
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <i class="bi bi-dot rs_colordot"></i>Link Supporto
+                                                    </a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
                                 </ul>
                             </div>
 
                             <div class="col-lg-3 offset-lg-2">
-                                <ul class="navbar-nav d-flex justify-content-end">
-                                    <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                        My Playstation
+                                <ul class="navbar-nav d-flex justify-content-end rs_imgnavbar">
+                                    <li class="nav-item dropdown position-static">
+                                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                        My Playstation <i class="bi bi-caret-down-fill"></i>
                                         </a>
-                                        <ul class="dropdown-menu text-center" aria-labelledby="navbarDropdownMenuLink">
-                                            <li><a class="dropdown-item" href="#">Action</a></li>
-                                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <ul class="dropdown-menu text-center w-100 m-0 rs_bordenav" aria-labelledby="navbarDropdownMenuLink">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 5</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                            <img src="./img/play-menu-ico.png" alt="console">
+                                                            <div>PlayStation 4</div>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a class="dropdown-item text-center" href="#">
+                                                        <img src="./img/play-menu-ico.png" alt="console">
+                                                        <div>PlayStation 3</div>
+                                                    </a>
+                                                </li>
+                                            </div>
                                         </ul>
                                     </li>
                                     <li class="nav-item">
                                         <div class="rs_buttonhead">
-                                            <a href="#">Accedi</a>
+                                            <a class="" href="#">Accedi</a>
                                         </div>
                                     </li>
                                     <li class="nav-item rs_lens_search">
@@ -127,13 +360,13 @@
     <main>
         <!-- returnal -->
         <section class="rs_bg1_returnal">
-            <div class="container">
+            <div class="container-fluid">
                 
                     <div class="col-12 col-lg-4 text-white">
                         <img class="" src="./img/returnal-hero-banner-logo.png" alt="logo-returnal">
                         <div class="rs_textsec1 pb-5">
                             <h1 class="pt-4 pb-3">Rompi il cerchio</h1>
-                            <p class="pb-4"><strong>ipsum dolor sit amet consectetur adipisicing elit. Incidunt ipsam similique voluptatum aperiam provident beatae officia architecto molestias.</strong></p>
+                            <p class="pb-4"><strong>Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva su PS5.</strong></p>
                             <a class="rs_btn_acquistaora " href="#">Acquista ora</a>
                         </div>
                     </div>
@@ -143,25 +376,25 @@
 
         <!-- returnal and ratchet clank -->
         <section class="rs_videogames1">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row g-4">
                     <div class="col-6 col-sm-4 col-lg-2">
-                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="rounded-4" alt="">
+                    <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="rounded-4 rs_bordergames1 rs_hovergames" alt="">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="rounded-4" alt="">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="rounded-4 rs_hovergames" alt="">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="rounded-4" alt="">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="rounded-4 rs_hovergames" alt="">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="rounded-4" alt="">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="rounded-4 rs_hovergames" alt="">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="rounded-4" alt="">
+                        <img src="./img/returnal-listing-thumb-01-ps5.jpg" class="rounded-4 rs_hovergames" alt="">
                     </div>
                     <div class="col-6 col-sm-4 col-lg-2">
-                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="rounded-4" alt="">
+                        <img src="./img/ratchet-and-clank-rift-apart-keyart.jpg" class="rounded-4 rs_hovergames" alt="">
                     </div>
                 </div>
             </div>
@@ -169,7 +402,7 @@
 
         <!-- playstation 5 -->
         <section class="rs_play5">
-            <div class="container">
+            <div class="container-fluid">
 
                 <div class="text-center">
                     <div class="text-uppercase text-primary">
@@ -191,23 +424,23 @@
                 </div>
 
                 <div class="row justify-content-md-center g-5 pb-4">
-                    <div class="col-4 col-md-2 text-center">
+                    <div class="col-4 col-md-2 text-center rs_accessoriesps5">
                         <img src="./img/playstation-5-thumb.png" alt="ps5-img">
                         <div class="d-none d-md-block">Console PS5</div>
                     </div>
-                    <div class="col-4 col-md-2 text-center">
+                    <div class="col-4 col-md-2 text-center rs_accessoriesps5">
                         <img src="./img/joypad-thumb.png" alt="controller-ps5">
                         <div class="d-none d-md-block">Controller wireless DualSense™</div>
                     </div>
-                    <div class="col-4 col-md-2 text-center">
+                    <div class="col-4 col-md-2 text-center rs_accessoriesps5">
                         <img src="./img/headset-thumb.png" alt="cuffie-ps5">
                         <div class="d-none d-md-block">Cuffie wireless con microfono PULSE3™</div>
                     </div>
-                    <div class="col-4 col-md-2 text-center">
+                    <div class="col-4 col-md-2 text-center rs_accessoriesps5">
                         <img src="./img/remote-thumb.png" alt="">
                         <div class="d-none d-md-block">Telecomando Media</div>
                     </div>
-                    <div class="col-4 col-md-2 text-center">
+                    <div class="col-4 col-md-2 text-center rs_accessoriesps5">
                         <img src="./img/camera-thumb.jpg" alt="">
                         <div class="d-none d-md-block">Telecamera HD</div>
                     </div>
@@ -218,7 +451,7 @@
 
         <!-- it takes two -->
         <section class="rs_bg2_ittakestwo">
-            <div class="container">
+            <div class="container-fluid">
                 
                     <div class="col-12 col-lg-4 text-white">
                         <img class="" src="./img/it-takes-two-logo.png" alt="logo-returnal">
@@ -234,7 +467,7 @@
 
         <!-- nuove uscite -->
         <section class="rs_bg_newrelease p-2">
-            <div class="container mt-4">
+            <div class="container-fluid mt-4">
                 <h1>Nuove uscite</h1>
                 <h3 class="">Giochi incredibili per PS4 e PS5 disponibili ora</h3>
                 <div class="row justify-content-center mb-3">
@@ -304,7 +537,7 @@
 
         <!-- esplora playstation 4 -->
         <section class="rs_play4 pb-5">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="text-center mt-5">
                     <h1 class="">Esplora PlayStation 4</h1>
                     <p class="pt-3"> Giochi incredibili e intrattenimento senza fine. Non c'è mai stato un momento migliore per giocare sulla tua PS4.</p>
@@ -336,14 +569,16 @@
         </section>
 
         <!-- playstation plus -->
-        <section class="rs_bg_playplus">
-            <div class="container ">
+        <section class="rs_backg_playplus">
+            <div class="container-fluid ">
                 <div class="row align-items-center mt-3 mb-5">
                     <div class="col-12 col-md-5">
                         <div class="pb-4">
                             <img class="py-4 rs_playstationplus" src="./img/ps-plus-logo.png" alt="play-plus-logo">
                             <p class="pb-3">Migliora la tua esperienza PlayStation con l'accesso a multigiocatore online, giochi mensili, sconti esclusivi e altro ancora.</p>
-                            <a href="#" class="rs_button_playplus">Esplora PlayStation Plus</a>
+                            <div>
+                                <a href="#" class="rs_button_playplus">Esplora PlayStation Plus</a>
+                            </div>
                         </div>
                     </div>
                     <div class="d-none d-md-block col-md-7">
@@ -355,7 +590,7 @@
 
         <!-- sconti -->
         <section class="rs_sales pb-5">
-            <div class="container text-center">
+            <div class="container-fluid text-center">
                 <h1 class="pt-5 pb-3">Nuovi sconti sul Playstation Store</h1>
                 <p class="pb-4">Sconti pazzeschi, collezioni curate e saldi stagionali su PS5, PS4 e PS VR, tutti in un unico posto.</p>
                 <div class="row g-4">
@@ -374,7 +609,7 @@
 
         <!-- playstation now -->
         <section class="rs_bg_playnow">
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row align-items-center mt-3 mb-5">
                     <div class="col-12 col-md-7">
                         <div class="pb-4">
@@ -392,28 +627,30 @@
 
         <!-- social -->
         <section class="rs_social">
-            <div class="container text-center">
+            <div class="container-fluid text-center">
                 <h1>Seguici sui social media</h1>
                 <div class="row row-cols-2 row-cols-sm-4 g-4">
                     <div>
-                        <img src="./img/twitter.jpg" alt="">
+                        <a href="#"><img src="./img/twitter.jpg" alt=""></a>
                     </div>
                     <div>
-                        <img src="./img/facebook.jpg" alt="">
+                        <a href="#"><img src="./img/facebook.jpg" alt=""></a>
                     </div>
                     <div>
-                        <img src="./img/instagram.jpg" alt="">
+                        <a href="#"><img src="./img/instagram.jpg" alt=""></a>
                     </div>
                     <div>
-                        <img src="./img/youtube.png" alt="">
+                        <a href="#"><img src="./img/youtube.png" alt=""></a>
                     </div>
                 </div>
             </div>
         </section>
+
     </main>
 
     <footer>
-        <div class="container py-5">
+
+        <div class="container-fluid py-5">
 
             <div class="row">
                 <div class="col-12 col-lg-6 text-white">
@@ -493,6 +730,7 @@
                 <p class="text-white">Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="rs_info" href="#">Maggiori info</a></p>
             </div>
         </div>
+
     </footer>
 
 

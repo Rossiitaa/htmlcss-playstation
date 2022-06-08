@@ -40,6 +40,16 @@ width: 30px;
 margin: 8px 20px;
 }
 
+.rs_colordot {
+    color: blue;
+}
+
+.rs_bordenav {
+    border: none;
+    border-radius: 0%;
+    background-color: #f8f9fa;
+}
+
 /* main */
 
 /* returnal */
@@ -73,6 +83,13 @@ margin: 8px 20px;
     margin-top: 160px;
 }
 
+.rs_bordergames1 {
+    padding: 3px;
+    border: 2px solid #0072ce;
+}
+
+
+
 
 /* playstation 5 */
 .rs_play5 {
@@ -87,6 +104,10 @@ margin: 8px 20px;
     border: 1px solid #96b2f3;
     color: #fff;
     font-weight: bold;
+}
+
+.rs_accessoriesps5 {
+    opacity: 0.5;
 }
 
 /* it takes two */
@@ -109,10 +130,9 @@ margin: 8px 20px;
 
 /* esplora playstation 4 */
 
-.rs_play4 
 
 /* playstation plus */
-.rs_bg_playplus {
+.rs_backg_playplus {
     background-color: #bebcbb;
 }
 
@@ -128,9 +148,7 @@ margin: 8px 20px;
     color: #2d64e6;
     font-weight: bold;
 }
-.rs_bannerplus {
 
-}
 
 /* sconti */
 
@@ -177,8 +195,52 @@ ul {
     text-decoration: underline;
 }
 
-/* breakpoints */
 
+
+/* hover */
+.rs_hovergames:hover {
+    transition: .3s;
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+
+.rs_accessoriesps5:hover {
+    opacity: 1;
+    border-bottom: 1px solid #1f7cd5;
+}
+
+.rs_button_playplus:hover {
+    border: 1px solid #fff;
+    
+}
+.rs_button_playnow:hover {
+    box-shadow: inset 0 0 0 3px #000,
+    0 0 0 2px #fff;
+}
+.rs_buttonhead:hover {
+    box-shadow: inset 0 0 0 2px #fff,
+    0 0 0 3px #000;
+}
+
+.rs_buttonblue:hover {
+    box-shadow: inset 0 0 0 2px #fff,
+    0 0 0 3px #000;
+}
+.rs_btn_acquistaora:hover {
+    box-shadow: inset 0 0 0 2px #000,
+    0 0 0 2px #cd3d0f;
+}
+
+
+.show i::before {
+    content: "\F235";
+}
+
+
+
+
+
+/* breakpoints */
 @media all and (min-width: 768px) {
     .rs_bg1_returnal img {
         width: 350px;
